@@ -1,0 +1,14 @@
+[gd_scene format=3 uid="uid://biaf5s6j7m7xv"]
+
+[node name="GameWorld" type="Node3D" unique_id=163731957]
+
+[node name="CSGBox3D" type="CSGBox3D" parent="." unique_id=1213730877]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.50341797, -0.15983176, 0.152771)
+size = Vector3(3.5205078, 0.29541016, 4.359253)
+
+[node name="CSGBox3D2" type="CSGBox3D" parent="." unique_id=327587374]
+transform = Transform3D(-4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0, 0, 1, -2.3036776, 0.45995784, 0.152771)
+size = Vector3(3.5205078, 0.29541016, 4.359253)
+
+[node name="Camera3D" type="Camera3D" parent="." unique_id=1621994759]
+transform = Transform3D(0.004365267, 0.00079631695, 0.99999017, 0, 0.9999997, -0.0007963245, -0.99999046, 3.4761692e-06, 0.004365266, 0.8518357, 0.520926, 0.11063196)

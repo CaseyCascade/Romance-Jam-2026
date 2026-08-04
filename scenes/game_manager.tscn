@@ -1,0 +1,13 @@
+[gd_scene format=3 uid="uid://dxqlijcsojc3o"]
+
+[ext_resource type="Script" uid="uid://cnc4e0nc8dgt1" path="res://scripts/game_manager.gd" id="1_hwd4i"]
+[ext_resource type="PackedScene" uid="uid://biaf5s6j7m7xv" path="res://scenes/stages/3D_stage.tscn" id="2_glms7"]
+[ext_resource type="PackedScene" uid="uid://0aficc7b4vmy" path="res://scenes/user_interface_manager.tscn" id="3_udu3i"]
+
+[node name="GameManager" type="Node" unique_id=75486624 node_paths=PackedStringArray("current_scene")]
+script = ExtResource("1_hwd4i")
+current_scene = NodePath("GameWorld")
+
+[node name="GameWorld" parent="." unique_id=163731957 instance=ExtResource("2_glms7")]
+
+[node name="UserInterfaceManager" parent="." unique_id=891869024 instance=ExtResource("3_udu3i")]
