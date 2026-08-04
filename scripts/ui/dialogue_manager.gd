@@ -4,6 +4,7 @@ class_name DialogueManager
 @onready var author_label = $AuthorBox/RichTextLabel
 @onready var message_label = $MessageBox/RichTextLabel
 
+#TODO Is this working
 
 var message: Array[String]
 var message_playing := false
